@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: #F6F6F6;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+.titulo-destaque {
+    color: #22d4fd;
+}
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    margin: 10% 25%;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.presentacion__contenido {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.presentacion__contenido__titulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 36px;
+}
+
+.presentacion__contenido__parrafo {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.presentacion__contenido__enlaces {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.presentacion__contenido__enlaces__titulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.presentacion__contenido__link {
+    width: 50%;
+    background-color: black;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #22d4fd;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.presentacion__contenido__link:hover {
+    background-color: #272727;
+}
+
+.footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 24px;
+    background-color: #22d4fd;
+    text-align: center;
+    color: black
+}
+
+.header {
+    padding: 2% 0% 0% 25%;
+}
+
+.presentacion__imagen {
+    width: 50%;
+}
+
+.header__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22d4fd;
+    text-decoration: none;
+}
+
+@media(max-width: 1200px) {
+
+
+
+    .header__menu {
+        justify-content: center;
+    }
+
+    .header {
+        padding: 10%;
+    }
+
+    .presentacion {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+
+
+}
